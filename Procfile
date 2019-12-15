@@ -1,1 +1,1 @@
-web: gunicorn gestao_clientes.wsgi -b 0.0.0.0:$PORT
+web: gunicorn gestao_clientes.wsgi --log-file -

@@ -8,6 +8,10 @@ def home(request):
     return render(request, 'home/home.html')
 
 
+def politica_de_privacidade(request):
+        return render(request, 'home/politica-de-privacidade.html')
+
+
 def my_logout(request):
     logout(request)
     return redirect('home')
